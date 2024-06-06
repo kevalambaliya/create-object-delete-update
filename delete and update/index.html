@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <div class="main">
+        <input class="mt tc" type="text" id="inp-item" required>
+        <input type="button" value="Add" onclick="additem()">
+        <br><br>
+        <input class="tc" type="text" id="remove-item" required>
+        <input type="button" value="Delete" onclick="removeitem()">
+        <br><br>
+        <input class="tc" type="text" id="old-item" required>
+        <input class="tc" type="text" id="new-item" required>
+        <input class="mt tc" type="button" value="update" onclick="updateitem()">
+        <hr>
+        <table id="table" border="1">
+            <tr>
+                <td>items</td>
+            </tr>
+        </table>
+    </div>
+    </center>
+</body>
+<script src="script.js"></script>
+</html>
